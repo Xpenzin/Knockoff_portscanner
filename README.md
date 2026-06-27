@@ -47,7 +47,7 @@ This tool works, but it's not finished. Some things I'm aware of and plan to rev
 
 -  **No timeout control** — slow or unresponsive hosts can cause threads to hang with no feedback
 -  **No UDP support** — currently TCP only via `connect_ex()`
--  **No input validation** — bad arguments will crash ungracefully instead of giving a helpful error message
+-  **No input validation** — bad arguments will crash badly instead of giving a helpful error message
 
 ---
 
